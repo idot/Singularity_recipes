@@ -7,7 +7,7 @@ MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
 # ===================
 
 %help
-The Oxford Nanopore basecaller Albacore (version 2.1.7).
+The Oxford Nanopore basecaller Albacore (version 2.3.1).
 
 Examples of how to run:
   To get the help menu:
@@ -29,7 +29,7 @@ Effectively you can run whatever combination of arguments you can see from the h
     # ===================
     # INSTALL ALBACORE
     # ===================
-    VERSION='2.1.7'
+    VERSION='2.3.1'
     apt-get install -y \
       apt-transport-https python3-pip \
       libboost-filesystem1.58.0 \
