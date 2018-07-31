@@ -36,11 +36,13 @@ Effectively you can run whatever combination of arguments you can see from the h
       libboost-program-options1.58.0 \
       libboost-python1.58.0 \
       libboost-system1.58.0 \
+      libboost-date-time1.58.0 \
       python3-h5py \
       python3-numpy \
       python3-dateutil \
       python3-progressbar \
       libhdf5-cpp-11
+    pip3 install --upgrade setuptools pip
     pip3 install ont-fast5-api
     wget https://mirror.oxfordnanoportal.com/software/analysis/python3-ont-albacore_"$VERSION"-1~xenial_amd64.deb
     apt-get update
