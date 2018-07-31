@@ -42,7 +42,7 @@ Effectively you can run whatever combination of arguments you can see from the h
       python3-dateutil \
       python3-progressbar \
       libhdf5-cpp-11
-    pip3 install --upgrade setuptools pip
+    # throws error and is not necessary pip3 install --upgrade setuptools pip
     pip3 install ont-fast5-api
     wget https://mirror.oxfordnanoportal.com/software/analysis/python3-ont-albacore_"$VERSION"-1~xenial_amd64.deb
     apt-get update
