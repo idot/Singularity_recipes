@@ -3,10 +3,10 @@ OSVersion: bionic
 MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
 %environment
-  PATH=/usr/local/bin:$PATH
+    PATH=/usr/local/bin:$PATH
 
-%file
-  install.bioc.R
+%files
+    install.bioc.R
 
 %post
     apt update
