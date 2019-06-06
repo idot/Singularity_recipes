@@ -2,7 +2,7 @@
 
 install.packages("BiocManager", dependencies = TRUE, repos="http://cran.us.r-project.org")
 
-pkgs <- c("roxygen2", "devtools","tidyverse","purrrlyr","graph")
+pkgs <- c("roxygen2", "devtools") #,"tidyverse","purrrlyr","graph",)
 
 ap.db <- available.packages(contrib.url(BiocManager::repositories()))
 ap <- rownames(ap.db)
